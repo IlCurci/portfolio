@@ -1,0 +1,1 @@
+start ..\JRE\bin\java.exe -jar Login.jar

@@ -1,0 +1,43 @@
+/*
+this code snippet was taken here
+https://codepen.io/MattWindle/pen/perZRG
+*/
+#advatages-grid{
+    box-sizing:border-box;
+    margin: 20px auto;
+    width:400px;
+    height:400px;
+    background-color:#fff;
+    display:grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    text-align: center
+    /*.box{
+        background-color:#333;
+        padding:20px;
+        border-radius:10px;
+        color:#fff;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:40px;
+        font-family:sans-serif;
+    }*/
+}
+
+.box{
+    border: 5px;
+    border-color: #172a3e;
+    border-style: solid;
+    /*background-color:#172a3e;*/
+    padding:20px;
+    border-radius:10px;
+    color:#172a3e;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:200%;
+    font-family:sans-serif;
+}
